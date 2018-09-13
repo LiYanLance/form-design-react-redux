@@ -19,12 +19,12 @@ class ItemAdder extends Component {
                         <Modal.Title>Select Field Type</Modal.Title>
                     </Modal.Header>
 
-                    {/*<Modal.Body>*/}
+                    <Modal.Body>
                         <div className="modal-body" onChange={(event) => this.chooseType(event)}>
                             <input type="radio" name="type" value="Text Input" defaultChecked/>Text Input<br/>
                             <input type="radio" name="type" value="Date Picker"/>Date Picker<br/>
                         </div>
-                    {/*</Modal.Body>*/}
+                    </Modal.Body>
 
                     <Modal.Footer>
                         <Button bsStyle="primary" onClick={() => {

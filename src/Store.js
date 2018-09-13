@@ -12,14 +12,14 @@ const reducer = (state, action) => {
     }
 }
 
-const defaultItems = [
-    {id: 1, type:"Text Input"},
-    {id: 2, type:"Text Input"},
-    {id: 3, type:"Date Picker"},
-    {id: 4, type:"Date Picker"},
-    {id: 5, type:"Text Input"},
-]
+// const defaultItems = [
+//     {id: 1, type:"Text Input"},
+//     {id: 2, type:"Text Input"},
+//     {id: 3, type:"Date Picker"},
+//     {id: 4, type:"Date Picker"},
+//     {id: 5, type:"Text Input"},
+// ]
 
-const store = createStore(reducer, defaultItems);
+const store = createStore(reducer);
 
 export default store;
