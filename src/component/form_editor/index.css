@@ -1,0 +1,32 @@
+.form-editor{
+    width: 600px;
+    margin: 50px auto;
+    border: 2px solid slategray;
+    border-radius: 10px;
+    padding: 40px;
+    animation: fade-in;/*动画名称*/
+    animation-duration: 1.2s;/*动画持续时间*/
+    position: relative;
+}
+
+.form-editor-header-btn{
+    margin: 20px 10px;
+    padding-left: 33px;
+    padding-right: 33px;
+    animation: fade-in;/*动画名称*/
+    animation-duration: 2s;/*动画持续时间*/
+}
+
+.form-editor input{
+    width: 300px;
+    margin: 5px 10px;
+    border-radius: 5px;
+}
+
+.form-editor-delete-btn{
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    animation: fade-in;/*动画名称*/
+    animation-duration: 2s;/*动画持续时间*/
+}

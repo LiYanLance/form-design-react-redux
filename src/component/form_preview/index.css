@@ -1,0 +1,33 @@
+.form-preview{
+    width: 600px;
+    margin: 50px auto;
+    border: 2px solid slategray;
+    border-radius: 10px;
+    padding: 40px;
+    animation: fade-in;/*动画名称*/
+    animation-duration: 0.6s;/*动画持续时间*/
+}
+
+.form-preview-header-btn{
+    margin: 20px 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    animation: fade-in;/*动画名称*/
+    animation-duration: 2s;/*动画持续时间*/
+}
+
+.form-preview input{
+    width: 300px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    animation: fade-in;/*动画名称*/
+    animation-duration: 1.2s;/*动画持续时间*/
+}
+
+
+@-webkit-keyframes fade-in {/*针对webkit内核*/
+    0% {opacity: 0;}
+    30% {opacity: 0;}
+    60% {opacity: 1;}
+    100% {opacity: 1;}
+}
